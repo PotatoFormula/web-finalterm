@@ -110,24 +110,26 @@ html, body {
   
   /* || main layout */
   
-  main {
-    display: flex;
-  }
+  @media (min-width: 1024px) {
+    main {
+      display: flex;
+    }
   
-  article {
-    flex: 4;
-  }
+    article {
+      flex: 4;
+    }
   
-  aside {
-    flex: 1;
-    margin-left: 10px;
-    background-color: #ff80ff;
-  }
+    aside {
+      flex: 1;
+      margin-left: 10px;
+      background-color: #ff80ff;
+    }
   
-  aside li {
-    padding-bottom: 10px;
-  }
+    aside li {
+      padding-bottom: 10px;
+    }
   
-  footer {
-    margin-top: 10px;
+    footer {
+      margin-top: 10px;
+    }
   }
